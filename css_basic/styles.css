@@ -1,11 +1,14 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: #a5c0d6;
+    border: black 1px solid;
 }
 main {
     display: flex;
     flex-direction: row;
     flex: auto;
+    background-color: rebeccapurple;
 }
 article {
     flex : 2;
@@ -14,4 +17,8 @@ article {
 aside {
     flex : 1;
     overflow-y: auto;
+}
+.logo {
+    width: 30px;
+    height: auto;
 }

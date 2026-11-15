@@ -13,7 +13,7 @@ header a {
     text-decoration: none;
 }
 .Banner {
-    background-image: url("/css_advanced/smile_image.jpg");
+    background-image: url("smile_image.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

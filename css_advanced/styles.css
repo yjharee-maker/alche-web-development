@@ -105,3 +105,92 @@ header a {
     color: white;
     font-style: italic;
 }
+.Videos {
+    background-color: white;
+    padding: 50px 0;
+}
+.Videos h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.Videos h1 span {
+    color: #C271FF;
+}
+.Videos > div {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.Videos .video {
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.Videos .video h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #071629;
+    margin: 15px 0;
+}
+.Videos .video > p {
+    font-size: 14px;
+    color: #071629;
+    line-height: 1.5;
+}
+.Videos .thumbnail {
+    position: relative;
+}
+
+.Videos .thumbnail img {
+    width: 100%;
+    display: block;
+}
+
+.Videos .play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+}
+.Videos .Author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Videos .Author img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.Videos .Author h3 {
+    color: #C271FF;
+    font-size: 14px;
+}
+.Videos .Rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Videos .star {
+    display: flex;
+    gap: 5px;
+}
+
+.Videos .star img {
+    width: 15px;
+    height: 15px;
+}
+
+.Videos .Rating p {
+    color: #C271FF;
+    font-size: 14px;
+}

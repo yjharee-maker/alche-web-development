@@ -1,3 +1,6 @@
+body {
+    background-color: purple;
+}
 header {
     max-width: 1000px;
     max-height: 100px;
@@ -73,5 +76,32 @@ header a {
     font-size: 18px;
 }
 .Banner .block p {
+    font-style: italic;
+}
+.Quote {
+    background-color: #C271FF;
+    text-align: center;
+}
+.Quote img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+.Quote > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.Quote blockquote {
+    color: white;
+    font-size: 20px;
+}
+.Quote p:first-of-type {
+    color: white;
+    font-weight: bold;
+}
+.Quote p:last-of-type {
+    color: white;
     font-style: italic;
 }

@@ -194,3 +194,51 @@ header a {
     color: #C271FF;
     font-size: 14px;
 }
+.Membership {
+    background-color: #071629;
+    padding: 50px 0
+}
+.Membership h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+.Membership h1 span {
+    color: #C271FF;
+}
+.Membership > div {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.Membership .membership {
+    text-align: center;
+    width: 200px;
+}
+.Membership .membership img {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 20px;
+}
+.Membership .membership h2 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.Membership .membership p {
+    color: white;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.Membership button {
+    display: block;
+    margin: 50px auto 0;
+    background-color: #C271FF;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+    cursor: pointer;
+}

@@ -1,2 +1,2 @@
-This project is to write an amazing seistemic HTML without CSS.
-![alt text](image.png)
+Adding CSS to the previous project.
+![Image Background](smile_image.jpg)

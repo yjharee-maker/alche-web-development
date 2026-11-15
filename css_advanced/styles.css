@@ -3,6 +3,13 @@ header {
     margin: 0 auto;
     display: flex;
     align-items: center;
+    background-color: purple;
+}
+header .logo img {
+    width: 100px;
+}
+header .nav-links {
+    margin-left: auto;
 }
 header div:last-child {
     display: flex;

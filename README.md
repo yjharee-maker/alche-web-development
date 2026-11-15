@@ -1,4 +1,3 @@
-html_basic
-css_basic
-html_advanced
-css_advanced
+Adding CSS to the previous project.
+![Image Background](/css_advanced/smile_image.jpg)
+[Link Text](/css_advanced/)
